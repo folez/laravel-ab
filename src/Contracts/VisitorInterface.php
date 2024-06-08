@@ -1,8 +1,8 @@
 <?php
 
-namespace FoLez\LaravelAB\Contracts;
+namespace folez\LaravelAB\Contracts;
 
-use FoLez\LaravelAB\Models\AbVariant;
+use folez\LaravelAB\Models\AbVariant;
 
 interface VisitorInterface
 {

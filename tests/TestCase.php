@@ -1,8 +1,8 @@
 <?php
 
-namespace Folez\LaravelAB\Tests;
+namespace folez\LaravelAB\Tests;
 
-use FoLez\LaravelAB\Facades\AbTestingFacade;
+use folez\LaravelAB\Facades\AbTestingFacade;
 use Illuminate\Foundation\Testing\DatabaseTransactions;
 use Illuminate\Support\Facades\Config;
 use Orchestra\Testbench\TestCase as BaseTestCase;

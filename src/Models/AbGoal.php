@@ -1,6 +1,6 @@
 <?php
 
-namespace FoLez\LaravelAB\Models;
+namespace folez\LaravelAB\Models;
 
 use Illuminate\Database\Eloquent\Model;
 

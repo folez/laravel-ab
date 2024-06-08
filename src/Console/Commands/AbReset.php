@@ -1,10 +1,10 @@
 <?php
 
-namespace FoLez\LaravelAB\Console\Commands;
+namespace folez\LaravelAB\Console\Commands;
 
-use FoLez\LaravelAB\Models\AbGoal;
-use FoLez\LaravelAB\Models\AbVariant;
-use FoLez\LaravelAB\Models\AbVisitor;
+use folez\LaravelAB\Models\AbGoal;
+use folez\LaravelAB\Models\AbVariant;
+use folez\LaravelAB\Models\AbVisitor;
 use Illuminate\Console\Command;
 use Illuminate\Console\ConfirmableTrait;
 

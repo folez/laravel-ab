@@ -1,10 +1,10 @@
 <?php
 
-namespace FoLez\LaravelAB\Providers;
+namespace folez\LaravelAB\Providers;
 
-use FoLez\LaravelAB\AbTesting;
-use FoLez\LaravelAB\Console\Commands\AbReport;
-use FoLez\LaravelAB\Console\Commands\AbReset;
+use folez\LaravelAB\AbTesting;
+use folez\LaravelAB\Console\Commands\AbReport;
+use folez\LaravelAB\Console\Commands\AbReset;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Blade;
 use Illuminate\Support\ServiceProvider;

@@ -1,10 +1,10 @@
 <?php
 
-namespace Folez\LaravelAB\Tests\Integration;
+namespace folez\LaravelAB\Tests\Integration;
 
-use FoLez\LaravelAB\Console\Commands\AbReport;
-use FoLez\LaravelAB\Facades\AbTestingFacade;
-use Folez\LaravelAB\Tests\TestCase;
+use folez\LaravelAB\Console\Commands\AbReport;
+use folez\LaravelAB\Facades\AbTestingFacade;
+use folez\LaravelAB\Tests\TestCase;
 
 class AbReportTest extends TestCase
 {

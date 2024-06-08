@@ -1,9 +1,9 @@
 <?php
 
-namespace FoLez\LaravelAB\Events;
+namespace folez\LaravelAB\Events;
 
-use FoLez\LaravelAB\Contracts\VisitorInterface;
-use FoLez\LaravelAB\Models\AbVariant;
+use folez\LaravelAB\Contracts\VisitorInterface;
+use folez\LaravelAB\Models\AbVariant;
 
 class VariantNewVisitor
 {

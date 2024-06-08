@@ -1,14 +1,14 @@
 <?php
 
-namespace FoLez\LaravelAb;
+namespace folez\LaravelAb;
 
-use FoLez\LaravelAB\Contracts\VisitorInterface;
-use FoLez\LaravelAB\Events\GoalCompleted;
-use FoLez\LaravelAB\Events\VariantNewVisitor;
-use FoLez\LaravelAB\Exceptions\InvalidConfiguration;
-use FoLez\LaravelAB\Models\AbGoal;
-use FoLez\LaravelAB\Models\AbVariant;
-use FoLez\LaravelAB\Models\AbVisitor;
+use folez\LaravelAB\Contracts\VisitorInterface;
+use folez\LaravelAB\Events\GoalCompleted;
+use folez\LaravelAB\Events\VariantNewVisitor;
+use folez\LaravelAB\Exceptions\InvalidConfiguration;
+use folez\LaravelAB\Models\AbGoal;
+use folez\LaravelAB\Models\AbVariant;
+use folez\LaravelAB\Models\AbVisitor;
 use Illuminate\Database\Eloquent\Collection;
 use Jaybizzle\CrawlerDetect\CrawlerDetect;
 

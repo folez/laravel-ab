@@ -1,8 +1,8 @@
 <?php
 
-namespace FoLez\LaravelAB\Models;
+namespace folez\LaravelAB\Models;
 
-use FoLez\LaravelAB\Contracts\VisitorInterface;
+use folez\LaravelAB\Contracts\VisitorInterface;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 

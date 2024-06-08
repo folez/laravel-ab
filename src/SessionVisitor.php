@@ -1,9 +1,9 @@
 <?php
 
-namespace FoLez\LaravelAb;
+namespace folez\LaravelAb;
 
-use FoLez\LaravelAB\Contracts\VisitorInterface;
-use FoLez\LaravelAB\Models\AbVariant;
+use folez\LaravelAB\Contracts\VisitorInterface;
+use folez\LaravelAB\Models\AbVariant;
 
 class SessionVisitor implements VisitorInterface
 {

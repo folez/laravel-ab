@@ -1,6 +1,6 @@
 <?php
 
-namespace FoLez\LaravelAB\Exceptions;
+namespace folez\LaravelAB\Exceptions;
 
 use Exception;
 

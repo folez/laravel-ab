@@ -1,8 +1,8 @@
 <?php
 
-namespace FoLez\LaravelAB\Console\Commands;
+namespace folez\LaravelAB\Console\Commands;
 
-use FoLez\LaravelAB\Models\AbVariant;
+use folez\LaravelAB\Models\AbVariant;
 use Illuminate\Console\Command;
 use Illuminate\Database\Eloquent\Collection;
 

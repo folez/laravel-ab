@@ -30,20 +30,20 @@
         "orchestra/testbench": "^7.0"
     },
     "autoload": {
-        "Folez\\LaravelAB\\": "src"
+        "folez\\LaravelAB\\": "src"
     },
     "autoload-dev": {
         "psr-4": {
-            "Folez\\LaravelAB\\Tests\\": "tests"
+            "folez\\LaravelAB\\Tests\\": "tests"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Folez\\LaravelAB\\Providers\\AbTestingServiceProvider"
+                "folez\\LaravelAB\\Providers\\AbTestingServiceProvider"
             ],
             "aliases": {
-                "AbTesting": "Folez\\LaravelAB\\Facades\\AbTestingFacade"
+                "AbTesting": "folez\\LaravelAB\\Facades\\AbTestingFacade"
             }
         }
     },

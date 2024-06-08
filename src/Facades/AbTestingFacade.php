@@ -1,6 +1,6 @@
 <?php
 
-namespace FoLez\LaravelAB\Facades;
+namespace folez\LaravelAB\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

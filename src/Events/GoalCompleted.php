@@ -1,8 +1,8 @@
 <?php
 
-namespace FoLez\LaravelAB\Events;
+namespace folez\LaravelAB\Events;
 
-use FoLez\LaravelAB\Models\AbGoal;
+use folez\LaravelAB\Models\AbGoal;
 
 class GoalCompleted
 {

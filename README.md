@@ -30,7 +30,7 @@ composer require folez/laravel-ab
 After installation publish the config file:
 
 ```bash
-php artisan vendor:publish --provider="FoLez\LaravelAB\Providers\AbTestingServiceProvider"
+php artisan vendor:publish --provider="folez\LaravelAB\Providers\AbTestingServiceProvider"
 ```
 
 You can define your experiments and goals in there.
