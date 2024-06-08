@@ -1,0 +1,82 @@
+{
+    "name": "folez/laravel-ab",
+    "description": "Laravel A/B experiment testing tool",
+    "keywords": [
+        "folez",
+        "laravel-ab",
+        "laravel",
+        "laravel-package",
+        "laravel-10-package",
+        "ab-testing"
+    ],
+    "license": "MIT",
+    "type": "library",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": "^8.0 || ^8.1",
+        "illuminate/http": "^8.0|^9.0|^10.0|^11.0",
+        "illuminate/database": "^9.0|^10.0|^11.0",
+        "illuminate/support": "^9.0|^10.0|^11.0",
+        "illuminate/console": "^9.0|^10.0|^11.0",
+        "nesbot/carbon": "^2.56|^2.72|^3.1",
+        "laravel/framework": "^9.0|^10.0|^11.0",
+        "jaybizzle/crawler-detect": "^1.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0 || ^10.0",
+        "slevomat/coding-standard": "^8.9",
+        "squizlabs/php_codesniffer": "^3.2",
+        "orchestra/testbench": "^7.0"
+    },
+    "autoload": {
+        "Folez\\LaravelAB\\": "src"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Folez\\LaravelAB\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Folez\\LaravelAB\\Providers\\AbTestingServiceProvider"
+            ],
+            "aliases": {
+                "AbTesting": "Folez\\LaravelAB\\Facades\\AbTestingFacade"
+            }
+        }
+    },
+    "scripts": {
+        "app:cs": [
+            "@app:cs-slevomat-coding-standard-rules",
+            "@app:cs-folders",
+            "@app:cs-database-folder"
+        ],
+        "app:cs-slevomat-coding-standard-rules": [
+            "phpcs --standard=ruleset.xml --extensions=php --tab-width=4 -sp src config"
+        ],
+        "app:cs-folders": [
+            "phpcs --standard=PSR12 --encoding=utf-8 -p src -p config"
+        ],
+        "app:cs-database-folder": [
+            "phpcs --standard=PSR12 --encoding=utf-8 -p database --exclude=PSR1.Classes.ClassDeclaration"
+        ],
+        "app:cs-fix": [
+            "phpcbf --standard=ruleset.xml --extensions=php --tab-width=4 -sp src config",
+            "phpcbf --standard=PSR12 --encoding=utf-8 -p database --exclude=PSR1.Classes.ClassDeclaration",
+            "phpcbf --standard=PSR12 --encoding=utf-8 -p src -p config"
+        ],
+        "app:test": [
+            "phpunit --coverage-clover=coverage.xml"
+        ],
+        "app:test-fast": [
+            "phpunit --no-coverage"
+        ]
+    },
+    "config": {
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": true
+        }
+    }
+}
